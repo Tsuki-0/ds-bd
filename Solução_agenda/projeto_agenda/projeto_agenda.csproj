@@ -59,11 +59,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>db_250221DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="db_250221DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_250221DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="formularios\exibir.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formularios\exibir.Designer.cs">
       <DependentUpon>exibir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="formularios\MDI_menu.cs">
       <SubType>Form</SubType>
@@ -86,6 +97,9 @@
       <DependentUpon>frmcadpessoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formularios\listagempessoasrdlc.rdlc" />
+    <EmbeddedResource Include="formularios\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formularios\MDI_menu.resx">
       <DependentUpon>MDI_menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +133,17 @@
     </None>
     <None Include="db_250221DataSet.xss">
       <DependentUpon>db_250221DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_250221DataSet1.xsc">
+      <DependentUpon>db_250221DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="db_250221DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_250221DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_250221DataSet1.xss">
+      <DependentUpon>db_250221DataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
